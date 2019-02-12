@@ -1,0 +1,55 @@
+[{
+    "id": 1,
+    "imageUrl":"assets/img/1.jpg",
+    "owner": "Nike",
+    "name": "Nike Shoes",
+    "rating": 5,
+    "price": 300,
+    "description": ""
+  },
+  {
+    "id": 2,
+    "imageUrl":"assets/img/3.jpg",
+    "owner": "Nike",
+    "name": "Nike Shirt",
+    "rating": 3,
+    "price": 90,
+    "description": ""
+  },
+  {
+    "id": 3,
+    "imageUrl":"assets/img/2.jpg",
+    "owner": "Nike",
+    "name": "Nike Socks",
+    "rating": 2.5,
+    "price": 30,
+    "description": ""
+  },
+  {
+    "id": 4,
+    "imageUrl":"assets/img/1.jpg",
+    "owner": "Nike",
+    "name": "Nike Shoes",
+    "rating": 1,
+    "price": 300,
+    "description": ""
+  },
+  {
+    "id": 5,
+    "imageUrl":"assets/img/3.jpg",
+    "owner": "Nike",
+    "name": "Nike Shirt",
+    "rating": 3.5,
+    "price": 90,
+    "description": ""
+  },
+  {
+    "id": 6,
+    "imageUrl":"assets/img/2.jpg",
+    "owner": "Nike",
+    "name": "Nike Socks",
+    "rating": 4.7,
+    "price": 30,
+    "description": ""
+  }
+]

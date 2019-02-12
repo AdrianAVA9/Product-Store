@@ -1,0 +1,15 @@
+<div class="product" *ngIf='product'>
+    <div class="image-container">
+      <img [src]='product.imageUrl'
+            [title]='product.name'
+      >
+    </div>
+    <div class="product-details">
+      <h4 class="company-name"><strong>{{product.owner}}</strong></h4>
+      <h3 class="product-name">{{product.name}}</h3>
+      <po-star [rating]='product.rating'></po-star>
+      <h6 class="price pull-">{{product.price | currency:'USD' : 'symbol' : '1.2-2'}}</h6>
+      <div class="clear-fix"></div>
+    </div>
+    <a [routerLink]="['/products', product.id]" class="btn btn-md btn-primary view-more">Ver mas</a>
+  </div>

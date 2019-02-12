@@ -1,0 +1,12 @@
+<div class="search-bar-container">
+  <div class="search-bar">
+      <span id='icon' class="fa fa-search"></span>
+      <input type="text" placeholder="¿Qué buscas?" [(ngModel)]='searchTerm'>
+  </div>
+  <input type="button" value="Buscar" class="btn-search" (click)='search()'>
+</div>
+<div class="product-container" *ngIf='filteredProduct && filteredProduct.length'>
+  <div *ngFor='let product of filteredProduct'>
+      <po-product [product]='product'></po-product>
+  </div>
+</div>

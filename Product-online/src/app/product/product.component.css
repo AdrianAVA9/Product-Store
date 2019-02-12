@@ -1,0 +1,47 @@
+.product{
+    width: 250px;
+    background: #fff;
+    display: block;
+    margin:15px;
+}
+
+.product .image-container {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.product .image-container img{
+    width: 100%;
+}
+
+.product-details{
+    padding: 10px;
+}
+
+.product-details .product-name{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.price{
+    margin-top:12px;
+    margin-left:100px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.view-more{
+    width: 100%;
+    border-radius: 0;
+    background-color:#343539;
+    border-color: #343539;
+}
+
+.view-more:hover{
+    background-color:rgba(82, 82, 82, 1);
+}
+
+.clear-fix{
+    clear: both;
+}

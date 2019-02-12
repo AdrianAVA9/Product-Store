@@ -1,0 +1,10 @@
+.rating{
+    overflow: hidden;
+    width:80px;
+}
+.star-container{
+    width: 100px;
+}
+.icon-star{
+    display:inline-flex;
+}
